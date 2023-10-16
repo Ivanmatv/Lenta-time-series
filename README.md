@@ -19,6 +19,18 @@
 
 ## Установка:
 
+### Создайте файл .env
+Пример:
+```bash
+DB_ENGINE=django.db.backends.postgresql
+DB_NAME=postgres
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+DB_HOST=db
+DB_PORT=5432
+SECRET_KEY=<ключ в одинарных ковычках>
+```
+
 Клонировать репозиторий и перейти в него в командной строке:
 ```shell
 git clone https://github.com/Danspers/Lenta-time-series.git && cd Lenta-time-series
